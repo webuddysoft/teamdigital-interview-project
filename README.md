@@ -1,6 +1,6 @@
 # teamDigital Full-Stack Development Interview Project #
 
-This project is to assess your skills as a full-stack developer. There isn't a "correct" way to complete this project, so just do your best. This is designed for us to se how you write the code and then we will talk through your process.
+This project is to assess your skills as a full-stack developer. There isn't a "correct" way to complete this project, so just do your best. This is designed for us to see how you develop code and then we will talk through your process.
 
 ### The Assignment ###
 
@@ -34,3 +34,10 @@ We have provided a base Laravel application with some base routing to same you c
 - Basic controller functions found in `app/Http/Controllers/PagesController.php`
 
 Add packages/libraries or code as you see fit to get the job done.
+
+### Setup ###
+- Copy `.env.example` to `.env`
+  - Update database fields as needed
+- Run `composer install` to install backend packages
+- Run `npm install` to install frontend packages
+
