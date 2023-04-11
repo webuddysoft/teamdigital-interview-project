@@ -17,19 +17,19 @@ Build a small sweepstakes application. This must include:
   - All fields should be required except the optin
 - Save data to a database (mysql or sqllite)
 - Allow users to enter once a day
-- Create a confirmation page with basic copy saying "confirm entry" or "already entered"
+- Create a confirmation page with basic copy saying "confirmed entry" or "already entered"
 - Style the page using Tailwind css
-- It is preferred to use VueJs but you can use blade templates if you don't know Vue
+- Use VueJs 3 with InertiaJs for the frontend build, ideally using Composition API
 
 ### In this Codebase ###
 
 We have provided a base Laravel application with some base routing to same you come time. This includes:
-- Laravel 9 base code
+- Laravel 10 base code
 - Vite code compiler
   - `npm run dev` will start watcher for development
   - `npm run build` will build files
 - Tailwind installed in `package.json` with base `tailwind.config.js` ready to be added to
-- VueJs 3 installed in  `package.json` and added to Vite setup
+- VueJs 3 and InertiaJs installed in  `package.json` and added to Vite setup
 - Basic routes found in `routes/web.php`
 - Basic controller functions found in `app/Http/Controllers/PagesController.php`
 
